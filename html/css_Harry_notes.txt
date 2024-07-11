@@ -1,1 +1,89 @@
 css is cascading stylesheet
+CSS--casecading stylesheet
+firefox is best for css
+
+<style>--</style>   -->style tag
+
+background-color: use for make whole screen color
+
+ex.
+<style>
+body{
+background-color:red;
+</style>
+
+-----------------------
+## to make different css file ###
+
+make a different css file in folder 
+ex. style.css
+
+Enter "link.rel" and css file name in href attri in html code-->
+
+<link rel="stylesheet" href="style.css" class="rel">
+
+----------------------------------------------
+## DOM: document object model:
+when page is openiing-browser create a DOM of page which is constructed as a tree of object.
+
+## id and class in HTML:
+
+id--> is unique identifier
+class--> one and more than one elements
+
+Ex.-->
+
+<div id="first">First</div>
+
+<section class="red"</section>
+<section class="red blue green"</section>
+
+<div id="second">Second</div>
+
+WE ARE TARGETING # FOR iD AND "." FOR CLASS
+
+-------------------------------------------
+There are three way to add css TO HTml:
+
+1.<style> --</style> -->style tag adding css using style attribute
+2.Inline css--> adding css using style attribute
+3.External css --> adding a stylesheet (.css) to html <link>tag
+
+
+-----------------------------------------------
+#### Type of Selectors###
+
+1.CSS Selector --> a css selector is use to select html element for styling 
+
+	ex.
+		body{
+			color:green;
+			background-color:violet;
+		}
+
+2.Element Selector --> it used to select an element based on tagname.
+		
+	h2{
+		color:pink;
+		background-color:green;
+	}
+
+3.id Selector	--> its used to select an element with a given id
+		"#" is for id
+
+		#id name{
+				color:vine red;
+			}
+
+4.class selector ---> its used to select an element with given class
+		"." is use for class
+		
+		.class name{
+				background:blue;
+			}
+
+
+
+
+
+
