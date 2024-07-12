@@ -81,6 +81,70 @@ There are three way to add css TO HTml:
 		.class name{
 				background:blue;
 			}
+			-------------------------------------------------------------------------
+## important notes ####
+
+1.we can group selector like this 
+
+	h1,h2,h3{
+		color: blue;
+		background-color: green;
+		}
+2.we can be used a "Element.class" as a selector like 
+
+	p.red{
+		color:red;
+	    }
+3."*" (star) is used for universal selector to select all the element.
+
+	*{
+	margin :0;
+	padding :0;
+	}
+
+## css used mostly 'class'
+----------------------## color & background-color ##--------------------------------
+css rule simple key-value pair with selector .we can write css rules to change to color &
+set background.
+
+# The color property:
+css color can be used to set the text color inside an element.
+
+	p{
+		color:red;
+	}
+------------------------------------------------------------------------------
+###  background ############
+
+1.background color:
+
+p{
+	background-color:blue;
+}
+
+2.background image:
+
+body{
+
+	background-image:url("__.jpg");
+}
+
+background image -repeat property 
+! the image by default repeated in x & y direction
+
+repeat-x -->in x direction only
+repeat -y --->in y direction only
+no-repeat ---> no repeat in x & y direction
+
+ex.
+	p{
+		background-image:url('---.jpg');
+		background-repeat:repeat-x;
+		background-repeat:repeat-y;
+		background-repeat:no-repeat;
+	}
+
+
 
 
 

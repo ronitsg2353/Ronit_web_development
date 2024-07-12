@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    color: blue;
+    background-color: aqua;
+}
+.blue{
+    background-color: chartreuse;
+    color: coral;
+}
+.pink{
+    /* rgb(red value,green value,blue value) */
+    /* height parameter */
+    background-color: rgb(24, 154, 154);
+    height: 100px;
+    color: darkslateblue;
+}
