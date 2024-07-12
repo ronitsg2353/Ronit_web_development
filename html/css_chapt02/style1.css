@@ -1,0 +1,22 @@
+
+
+/* this is background.html stylesheet */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: red;
+}
+
+
+/* background -image use for adding image in background */
+/* this image by default repeated in x and y direction */
+/* For restrict the repeat in x and y direction-we are using "background-repeat:repeat-x/repeat-y/no-repeat"  */
+
+.body{
+    background-image: url('index.jpg');
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+}
