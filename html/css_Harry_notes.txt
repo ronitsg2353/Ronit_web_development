@@ -171,8 +171,25 @@ A single property to set multiple background properties.
 			    :    :              :        :       :
 			    :	 :		:	 :	 :
 			   color img 		repeat	attachmt position
-
+	}
  $ one of the properties can be missing given other are orderd.
+ ----------------------------------------------------------------------------
+#####		Font & Display ######
+
+## the display property:
+determine wheter an elemnt treated as block/inline element & layour used to its children(flexbox/grid)
+
+## display:inline-->
+only space required by elemt.no line breaks before & after.setting width/ht not allowed
+
+##display: block-->
+takes full space available in width & leaves a new line before & after element.
+
+$display:inline-block-->
+similar to inline but setting height;width;margin;padding
+
+$ display:none vs visibility:hidden:
+
 
 
 
