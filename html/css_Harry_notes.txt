@@ -143,6 +143,38 @@ ex.
 		background-repeat:repeat-y;
 		background-repeat:no-repeat;
 	}
+	------------------------------------------------------------------------
+	# the background-size property ##
+
+background-size:cover; -->fit and no empty space remain
+background-size:contain; -->fit and image fully visible
+background-size:auto;	-->display in origin size
+background-size:{{width}}; -->set width and height will be automatically
+background-size:{{widhth}}{{height}}; -->set width and height
+
+## background-position:top center;
+
+
+## background-attachment##
+Define a scrollable/non-scrollable character of background image.
+
+div{
+background-attachmenta:fixed; //local,scroll
+}
+
+## background-shorthand ## --->
+A single property to set multiple background properties.
+
+	div3{
+		background:red url('img.png') no-repeat fixed right top;
+
+			    :    :              :        :       :
+			    :	 :		:	 :	 :
+			   color img 		repeat	attachmt position
+
+ $ one of the properties can be missing given other are orderd.
+
+
 
 
 
