@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* flexbox is better way to provide layout,align distribute space among the items in a containers. */
+
+        /* display:flex-->intialize flexbox */
+
+        /* flex-direction: is moving direction is like row ,coloumn and etc
+        flex-direction--> coloumn-reverse make changes row serials like if flex-start with that box is 1 after 
+        change flex direction:column-reverse-->flex start form the box is 4.
+
+        flex-wrap-->can be wrap,nowrap,wrap-reverse
+
+        justify-content-->alignment along main axis
+
+
+
+        flex- */
+        .container{
+            background-color: darkmagenta;
+           display: flex;
+           flex-direction: row;
+            flex-wrap: wrap;
+
+            /* justify-content is best way to center items  */
+            justify-content: center;
+            height: 150vh;
+
+            /* align-items is use for move to (vertically-center) top for and center items */
+            align-items: center;
+
+
+            align-content: center;
+
+        }
+        .box1{
+            background-color: beige;
+            height: 234px;
+            width: 345px;
+
+            /* order---> control order of items which appear in flex container */
+            order: 4;
+            
+
+        }
+        .box2{
+            background-color: blue;
+            height: 234px;
+            width: 345px;
+/* 
+            align-self-->move and allow to move individual item  */
+            align-self: start;
+        }
+        .box3{
+            background-color: brown;
+            height: 234px;
+            width: 345px;
+            flex-shrink: 1;
+        }
+        .box4{
+            background-color: chartreuse;
+            height: 234px;
+            width: 345px;
+
+            /* flex-grow --->ability to grow particular flex item..incresae size */
+            flex-grow: 3;
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">this box 1</div>
+        <div class="box2">this is box 2</div>
+        <div class="box3">this box 3</div>
+        <div class="box4">this box 4</div>
+        
+    </div>
+</body>
+</html>
