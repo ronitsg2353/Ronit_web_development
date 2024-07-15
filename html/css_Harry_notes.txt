@@ -189,6 +189,117 @@ $display:inline-block-->
 similar to inline but setting height;width;margin;padding
 
 $ display:none vs visibility:hidden:
+display :none:--> element removed form document flow but space is not blocked.
+visibility:hidden-->element is but space is reserved.
+
+------------------------------------------------------------------------------------------
+$$$$ Text-align Property %%%
+
+used to set horizontal alignment of text
+
+div1{
+text-align:center;   //top,bottom,right,left
+}
+
+$$ text-decoration property:
+ decorate the text-->overline,underline ,line-through,none
+
+p{
+	text-decoration:underline;
+}
+
+
+## text-transform property:
+specify uppercase & lowercase letter in text.
+
+p{
+	text-transform:uppercase;
+}
+
+## line-height property:
+specify the space between lines.
+
+p{
+	line-height:0.7;
+}
+-------------------------------------------------------
+		---Font--
+
+font play a imp role in look and feel of website
+
+1.font-family:
+font specify font of text.
+
+p{
+	font-family:"TimesNow",monospace;
+}
+
+2.web space font:
+font is universally installed across all browser.
+
+3.How to add google font--:
+
+	1.Goto goole font
+	2.select the style and finally paste embedded code in style 
+	and add font name
+
+4.Other font properties:
+font-size:-->size of font
+font-style:-->font style
+font-variant:-->text displayed in small cap
+font-weight:-->weight of font
+
+Generic Families===>
+broad class of similar families ex.serif,san-serif 
+
+font-family-->specific
+Genric-family-->generic
+---------------------------------------------------------------------
+###### Size,Position & List ##########
+
+there are size other than px .there are 'rem','cm',vw,vh,percentage'
+
+em -->unit relative to parent size 
+rem -->unit relative to root font size
+vw -->unit relative to 1% viewport width
+vh -->unit relative to 1% viewport height
+% -->unit relative to parent elment.
+
+min/max -height/width property:
+css have give boundry to min-height,max-height,min-width,max-width
+
+----------------------------------------------------------------------
+#### position  property ###
+
+static-->default position-->no left/right/top/bottom moved
+
+relative-->top/bottom/left/right/z-index will now work.
+
+absolute-->
+
+fixed-->
+
+sticky-->element is postioned based on user's scroll postion
+
+List-style property--->its short hand for bullet for list type,postion,img
+
+ul{
+	list-style:square inside url('img.png');
+}
+
+## z -index property-->
+
+z index property speficies stack order of elment.
+
+-----------------------------------------------------------------------
+chapter06--Flexbox
+
+$$ float property-->
+
+elment move left and right side
+
+we can restrict beside by using clear left/right
+
 
 
 

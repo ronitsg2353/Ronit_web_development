@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: grey;
+    color: brown;
+
+    background: red url('https://s7d1.scene7.com/is/image/tiaastage/home_hero_march_1_24:Hero-With-Children-Medium-Retina-2x?ts=1720808090303&fmt=pjpeg&pscan=5') no-repeat fixed right;
+}
