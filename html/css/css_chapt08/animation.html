@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            width: 100vw;
+            height:100vh;
+        }
+        .box{
+            background-color: red;
+            width: 30vw;
+            height: 50vh;
+            color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* animation-name: ronitanimation;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-iteration-count: 4;
+            animation-direction: normal; */
+            animation: ronitanimation 4s 1s 6 normal;
+            
+        }
+
+        @keyframes ronitanimation {
+            from{
+                width: 200px;}
+                to{
+                    width: 310px;
+                }
+            }
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is Ronit Box</div>
+    </div>
+    
+</body>
+</html>
