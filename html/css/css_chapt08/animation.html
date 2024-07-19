@@ -18,15 +18,28 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            /* animation-name: ronitanimation;
+
+            /* animation-name:name of animation that u create in keyframes */
+            animation-name: ronitanimation;
+
+            /* animation-duration is time animation */
             animation-duration: 4s;
+
+            /* animation-delay is delay time in animmation */
             animation-delay: 1s;
+
+            /* animation-iteration-count is number of frequecy count to show */
             animation-iteration-count: 4;
-            animation-direction: normal; */
-            animation: ronitanimation 4s 1s 6 normal;
+
+            /* animation-direction-->at which direction animation should move like normal,reverse */
+            animation-direction: normal;
+
+            /* animation--shorthand:animation_name duration delay_duration iteration_count direction; */
+            animation: ronitanimation 4s ease-in-out 1s 6 normal;
             
         }
 
+        /* animation code */
         @keyframes ronitanimation {
             from{
                 width: 200px;}
@@ -36,7 +49,7 @@
             }
             
             
-        }
+        
     </style>
 </head>
 <body>
