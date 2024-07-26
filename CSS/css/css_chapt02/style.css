@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    color: blue;
+    background-color: aqua;
+}
+.blue{
+    border: 23px;
+    background-color: chartreuse;
+    background-image: url("https://s7d1.scene7.com/is/image/tiaastage/home_hero_march_1_24:Hero-With-Children-Large-Retina-2x?ts=1720783200627&fmt=pjpeg&pscan=5");
+    color: coral;
+}
+.pink{
+    /* rgb(red value,green value,blue value) */
+    /* height parameter */
+    background-color: rgb(24, 154, 154);
+    height: 100px;
+    color: darkslateblue;
+}
