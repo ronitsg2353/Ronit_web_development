@@ -1,4 +1,6 @@
 alert("Enter the number below")
+
+
 let a=prompt("Enter your number here:")
 a=Number.parseInt(a);
 alert("you entered a type is"+typeof(a))

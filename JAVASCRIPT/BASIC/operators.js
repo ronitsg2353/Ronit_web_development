@@ -17,7 +17,7 @@ console.log("a**b:",a**b)      //Expoential
 
 // value is 20
 console.log("a++ :",a++)  // value 20
-console.log("++a :",++a) //value 12
+console.log("++a :",++a) //value 22
 console.log("a-- :",a--) // value 22
 console.log("--a :",--a) //value 20
 
