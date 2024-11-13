@@ -10,6 +10,8 @@ let items = {
 
 }
 console.log(items)
+console.log("value of container 2 is "+items["container2"])
+console.log("value of container 2 is"+items.container2)
 
 
 
@@ -22,5 +24,6 @@ const item1 = {
 item1["class"] = "A"    //we can add  extra -- object key value pair after 
 item1["name"] = "Rohit" //we can change value also
 
-console.log(items1)
+console.log(item1)
 console.log(item1["Gaikwad"])
+console.log(item1["class"]) // printing of  value of new added key value pair in object
