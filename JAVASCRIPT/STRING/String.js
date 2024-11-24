@@ -1,5 +1,6 @@
 
 let name="Ronit" //double quote
+
 var friend='rohit' //single quote
 console.log(name)
 console.log(friend)

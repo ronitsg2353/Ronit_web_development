@@ -1,5 +1,5 @@
 
-//object in js like key value pair & object is non primtive datatype
+//object in js like key value pair & object is non primtive datatype   
 
 let items = {
 

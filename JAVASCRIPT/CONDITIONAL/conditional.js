@@ -1,6 +1,8 @@
 
 //code-01--if-else condition
 let a=prompt("please enter your age1:")
+
+//convert string to int
 a=Number.parseInt(a)
 console.log(a)
 if(a>0){
